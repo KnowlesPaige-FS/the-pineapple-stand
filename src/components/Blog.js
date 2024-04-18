@@ -3,8 +3,9 @@ import Post from './Post';
 import post1 from '../posts/post1.md';
 import post2 from '../posts/post2.md';
 import post3 from '../posts/post3.md';
+import post4 from '../posts/post4.md';
 
-const posts = [post1, post2, post3];
+const posts = [post1, post2, post3, post4];
 
 const Blog = () => {
   return (

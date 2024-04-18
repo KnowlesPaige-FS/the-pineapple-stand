@@ -1,17 +1,21 @@
 import {Routes, Route} from 'react-router-dom';
 import Navigation from './components/Navigation';
+import Home from './pages/Home';
+import Articles from './pages/Articles';
 
 function App() {
   return (
     <div className='App'>
-      <main>
+      <main style={styles.main}>
         <section>
           <Navigation/>
         </section>
 
         <section>
           <Routes>
-            <Route path='/' ></Route>
+            <Route path='/' element={<Home />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/articles' element={<Articles />} />
           </Routes>
         </section>
       </main>
@@ -21,3 +25,9 @@ function App() {
 }
 
 export default App;
+
+const styles = {
+  main: {
+
+  }
+}
