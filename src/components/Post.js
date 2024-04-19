@@ -1,13 +1,12 @@
 import React from 'react';
-// import Markdown from 'markdown-to-jsx';
-import Markdown from 'react-markdown'
+import Markdown from 'react-markdown';
 
 
 const Post = ({ post }) => {
   const { title, date, content } = post;
 
   console.log('Content:', content);
-  console.log('Post', post);
+  console.log('Post:', post);
 
   return (
     <div>
@@ -19,3 +18,7 @@ const Post = ({ post }) => {
 };
 
 export default Post;
+
+
+
+

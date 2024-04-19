@@ -4,6 +4,10 @@ import Home from './pages/Home';
 import Articles from './pages/Articles';
 // import Blog from './components/Blog';
 
+import { Buffer } from 'buffer';
+window.Buffer = Buffer;
+
+
 function App() {
   return (
     <div className='App'>
