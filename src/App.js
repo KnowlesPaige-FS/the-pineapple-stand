@@ -22,7 +22,7 @@ function App() {
 
         <section>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/home' element={<Home />} />
             <Route path='/home' element={<Home />} />
             <Route path='/articles' element={<Articles />} />
             <Route path='/postone' element={<PostOne />} />
@@ -39,7 +39,5 @@ function App() {
 export default App;
 
 const styles = {
-  main: {
 
-  }
 }
