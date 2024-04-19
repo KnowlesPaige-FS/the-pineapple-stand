@@ -22,8 +22,8 @@ function App() {
 
         <section>
           <Routes>
-            <Route path='/home' element={<Home />} />
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/articles' element={<Articles />} />
             <Route path='/postone' element={<PostOne />} />
             <Route path='/posttwo' element={<PostTwo />} />
