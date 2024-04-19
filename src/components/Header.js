@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import header from '../images/kalei-de-leon-MyzKYhcHkmg-unsplash.jpg';
 
 const Header = props => {
     return (
@@ -13,7 +12,7 @@ const Header = props => {
                     <p style={styles.p}>{props.desc}</p>
                 </div>
                 <div style={styles.headerImg}>
-                    <img style={styles.img} src={header} alt='Photo placeholder' />   
+                    <img style={styles.img} src={props.img} alt='Photo placeholder' />   
                 </div>    
             </section>
         </header>
@@ -37,6 +36,7 @@ const styles = {
         background: 'rgb(197, 92, 30)',
         width: '35%',
         height: '85%',
+        borderRadius: '4% 0 0 4%'
     },
     mainContent: {
         width: '50%'
@@ -52,7 +52,8 @@ const styles = {
     },
     img: {
         width: '80%',
-        boxShadow: '0px 0px 10px rgba(45, 44, 39, 0.5)'
+        boxShadow: '0px 0px 10px rgba(45, 44, 39, 0.5)',
+        borderRadius: '4%'
     }
     
 }

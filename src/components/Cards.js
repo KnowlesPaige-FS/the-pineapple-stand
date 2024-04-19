@@ -23,10 +23,9 @@ export default Cards;
 
 const styles = {
     card: {
-        width: '25%',
+        width: '100%',
         height: '400px',
         flexShrink: '1',
-        margin: '2% 1%',
         padding: '0',
         borderRadius: '4%',
         backgroundColor: 'rgba(185, 177, 163, .50)',

@@ -1,15 +1,21 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
+// import Markdown from 'markdown-to-jsx';
+import Markdown from 'react-markdown'
+
 
 const Post = ({ post }) => {
+  const { title, date, content } = post;
+
+  console.log('Content:', content);
+  console.log('Post', post);
+
   return (
     <div>
-      <h2>{post.title}</h2>
-      <p>{post.date}</p>
-      <ReactMarkdown>{post.content}</ReactMarkdown>
+      <h2>{title || 'Untitled'}</h2>
+      <p>{date || 'Unknown'}</p>
+      <Markdown>{content}</Markdown>
     </div>
   );
 };
 
 export default Post;
-
