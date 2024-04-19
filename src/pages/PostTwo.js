@@ -4,16 +4,16 @@ import axios from 'axios';
 import Header from "../components/Header";
 import Post from "../components/Post";
 import Cards from "../components/Cards";
-import post4 from '../posts/2024-04-14.md';
+import post2 from '../posts/2024-02-14.md';
 import matter from 'gray-matter';
 import cardOne from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
 import cardThree from '../images/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg';
 import cardFour from '../images/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg';
 
-const latestPost = post4; 
+const latestPost = post2; 
 
-const Articles = () => {
+const PostTwo = () => {
   const [latestPostContent, setLatestPostContent] = useState(null);
 
   useEffect(() => {
@@ -76,7 +76,7 @@ const Articles = () => {
   );
 }
 
-export default Articles;
+export default PostTwo;
 
 const styles = {
     posts:{

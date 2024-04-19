@@ -21,19 +21,19 @@ function Home() {
             <section style={styles.articles}>
                 <h3 style={styles.h2}>Latest Articles</h3>
                 <section class="d-flex flex-row justify-content-between">
-                <Link to='/blog/post1' style={styles.link}>
+                <Link to='/articles' style={styles.link}>
                     <Cards 
                         img={cardOne} 
                         desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
                     />
                 </Link>
-                <Link to='/blog/post2' style={styles.link}>
+                <Link to='/postthree' style={styles.link}>
                     <Cards 
                         img={cardThree}
                         desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
                     />
                 </Link>
-                <Link to='/blog/post3' style={styles.link}>
+                <Link to='/posttwo' style={styles.link}>
                     <Cards 
                         img={cardTwo}
                         desc="Navigating the Future: Exploring the World of Web3"

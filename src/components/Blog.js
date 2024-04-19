@@ -31,7 +31,7 @@ const Blog = () => {
   
 
   return (
-    <div>
+    <div style={styles.blog}>
       {postContents.map((content, index) => {
         try {
           const { data: frontmatter, content: markdownContent } = matter(content);
@@ -54,3 +54,10 @@ const Blog = () => {
 export default Blog;
 
 
+const styles = {
+  blog: {
+    margin: '2%',
+    padding: '2% 1%',
+    width: '85%'
+  }
+}
