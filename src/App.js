@@ -19,7 +19,7 @@ function App() {
         <section>
           <Navigation/>
         </section>
-
+        
         <section>
           <Routes>
             <Route path='/' element={<Home />} />
