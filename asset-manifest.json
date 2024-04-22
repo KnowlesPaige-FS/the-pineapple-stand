@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/the-pineapple-stand/static/css/main.7753d3a7.css",
-    "main.js": "/the-pineapple-stand/static/js/main.4eb3ed13.js",
+    "main.css": "/the-pineapple-stand/static/css/main.36ffff30.css",
+    "main.js": "/the-pineapple-stand/static/js/main.783a9c0c.js",
     "static/js/453.5565870f.chunk.js": "/the-pineapple-stand/static/js/453.5565870f.chunk.js",
     "static/media/kalei-de-leon-MyzKYhcHkmg-unsplash.jpg": "/the-pineapple-stand/static/media/kalei-de-leon-MyzKYhcHkmg-unsplash.73d914f152fcc4bda900.jpg",
     "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/the-pineapple-stand/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.9ba0183330fc2d77497a.jpg",
@@ -10,18 +10,18 @@
     "static/media/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg": "/the-pineapple-stand/static/media/lautaro-andreani-xkBaqlcqeb4-unsplash.bd56750aac935dd43d16.jpg",
     "static/media/shubham-dhage-jwu8TzngxqY-unsplash.jpg": "/the-pineapple-stand/static/media/shubham-dhage-jwu8TzngxqY-unsplash.1fd30aed88a1d7f2fdc2.jpg",
     "static/media/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg": "/the-pineapple-stand/static/media/rubaitul-azad-HSACbYjZsqQ-unsplash.d23f56f70a97d9b7244b.jpg",
-    "static/media/2024-02-14.md": "/the-pineapple-stand/static/media/2024-02-14.eefd1a7f972fbc1c3df2.md",
+    "static/media/2024-02-14.md": "/the-pineapple-stand/static/media/2024-02-14.5e767541216466d0308e.md",
     "static/media/2024-01-14.md": "/the-pineapple-stand/static/media/2024-01-14.16e2e0a919df457fafdf.md",
     "static/media/2024-04-20.md": "/the-pineapple-stand/static/media/2024-04-20.8c5d24bef31a2a55ee52.md",
-    "static/media/2024-03-14.md": "/the-pineapple-stand/static/media/2024-03-14.0237860b6f4fad720cab.md",
+    "static/media/2024-03-14.md": "/the-pineapple-stand/static/media/2024-03-14.bd83a17d241339182d29.md",
     "static/media/2024-04-14.md": "/the-pineapple-stand/static/media/2024-04-14.e3b95f104ac27e34228d.md",
     "index.html": "/the-pineapple-stand/index.html",
-    "main.7753d3a7.css.map": "/the-pineapple-stand/static/css/main.7753d3a7.css.map",
-    "main.4eb3ed13.js.map": "/the-pineapple-stand/static/js/main.4eb3ed13.js.map",
+    "main.36ffff30.css.map": "/the-pineapple-stand/static/css/main.36ffff30.css.map",
+    "main.783a9c0c.js.map": "/the-pineapple-stand/static/js/main.783a9c0c.js.map",
     "453.5565870f.chunk.js.map": "/the-pineapple-stand/static/js/453.5565870f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7753d3a7.css",
-    "static/js/main.4eb3ed13.js"
+    "static/css/main.36ffff30.css",
+    "static/js/main.783a9c0c.js"
   ]
 }
