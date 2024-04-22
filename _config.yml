@@ -22,7 +22,7 @@ title: The Pineapple Stand
 email: paknowles@student.fullsail.edu
 description: >- # this means to ignore newlines until "baseurl:"
 domain: knowlespaige-fs.github.io
-baseurl: "/Memory-Lane" # the subpath of your site, e.g. /blog
+baseurl: "/The-Pineapple-Stand" # the subpath of your site, e.g. /blog
 url: "https://knowlespaige-fs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  KnowlesPaige-FS
 
