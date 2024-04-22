@@ -23,7 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Jekyll build directory (if not already excluded in _config.yml)
-_site/build
+_site/
 
 # Ignore Gemfile.lock as dependencies will be installed on the server
 Gemfile.lock
