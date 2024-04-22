@@ -5,9 +5,10 @@ import post1 from '../posts/2024-01-14.md';
 import post2 from '../posts/2024-02-14.md';
 import post3 from '../posts/2024-03-14.md';
 import post4 from '../posts/2024-04-14.md';
+import post5 from '../posts/2024-04-20.md';
 import matter from 'gray-matter';
 
-const postFiles = [post1, post2, post3, post4];
+const postFiles = [post1, post2, post3, post4, post5];
 
 const Blog = () => {
   const [postContents, setPostContents] = useState([]);

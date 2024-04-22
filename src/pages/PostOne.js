@@ -10,6 +10,7 @@ import cardOne from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
 import cardThree from '../images/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg';
 import cardFour from '../images/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg';
+import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
 
 const latestPost = post1; 
 
@@ -48,29 +49,35 @@ const PostOne = () => {
       </section>
       <section className="d-flex flex-row justify-content-between align-items-center flex-wrap" style={styles.articles}>
         <Link to='/postone' style={styles.link}>
-            <Cards 
-                img={cardOne} 
-                desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
-            />
-        </Link>
-        <Link to='/posttwo' style={styles.link}>
-            <Cards 
-                img={cardThree}
-                desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
-            />
-        </Link>
-        <Link to='/postthree' style={styles.link}>
-            <Cards 
-                img={cardTwo}
-                desc="Navigating the Future: Exploring the World of Web3"
-            />
-        </Link>
-        <Link to='/articles' style={styles.link}>
-            <Cards 
-                img={cardFour}
-                desc=" Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
-            />
-        </Link> 
+              <Cards 
+                  img={cardOne} 
+                  desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
+              />
+          </Link>
+          <Link to='/posttwo' style={styles.link}>
+              <Cards 
+                  img={cardThree}
+                  desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
+              />
+          </Link>
+          <Link to='/postthree' style={styles.link}>
+              <Cards 
+                  img={cardTwo}
+                  desc="Navigating the Future: Exploring the World of Web3"
+              />
+          </Link>
+          <Link to='/postfour' style={styles.link}>
+              <Cards 
+                  img={cardFour}
+                  desc="Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
+              />
+          </Link>
+          <Link to='/postfive' style={styles.link}>
+              <Cards 
+                  img={cardFive}
+                  desc="A Beginner's Guide to Deploying an API"
+              />
+          </Link> 
       </section>
     </section>
   );

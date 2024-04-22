@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Cards from '../components/Cards';
-import cardOne from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
-import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
+import cardFour from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
+import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
 import cardThree from '../images/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg';
 import about from '../images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg';
 import header from '../images/kalei-de-leon-MyzKYhcHkmg-unsplash.jpg';
@@ -21,24 +21,24 @@ function Home() {
             <section style={styles.articles}>
                 <h3 style={styles.h2}>Latest Articles</h3>
                 <section class="d-flex flex-row justify-content-between">
-                <Link to='/articles' style={styles.link}>
-                    <Cards 
-                        img={cardOne} 
-                        desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
-                    />
-                </Link>
-                <Link to='/postthree' style={styles.link}>
-                    <Cards 
-                        img={cardThree}
-                        desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
-                    />
-                </Link>
-                <Link to='/posttwo' style={styles.link}>
-                    <Cards 
-                        img={cardTwo}
-                        desc="Navigating the Future: Exploring the World of Web3"
-                    />
-                </Link>
+                    <Link to='/articles' style={styles.link}>
+                        <Cards 
+                            img={cardFive}
+                            desc="A Beginner's Guide to Deploying an API"
+                        />
+                    </Link>
+                    <Link to='/postfour' style={styles.link}>
+                        <Cards 
+                            img={cardFour} 
+                            desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
+                        />
+                    </Link>
+                    <Link to='/postthree' style={styles.link}>
+                        <Cards 
+                            img={cardThree}
+                            desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
+                        />
+                    </Link>
                 </section>
                
             </section>

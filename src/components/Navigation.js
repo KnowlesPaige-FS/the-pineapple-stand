@@ -8,7 +8,7 @@ const Navigation = () => {
         <div>
             <ul style={styles.ul} class="d-flex flex-row justify-content-between">
             <li style={styles.li}> 
-                <Link to="/" style={styles.link}>Home</Link>
+                <Link to="/home" style={styles.link}>Home</Link>
             </li>
             <li style={styles.li}>
                 <Link to="/articles" style={styles.link}>Articles</Link>
