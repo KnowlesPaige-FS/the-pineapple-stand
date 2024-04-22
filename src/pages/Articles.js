@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Header from "../components/Header";
 import Post from "../components/Post";
+import Blog from '../components/Blog';
 import Cards from "../components/Cards";
 import post5 from '../posts/2024-04-20.md';
 import matter from 'gray-matter';
@@ -78,6 +79,9 @@ const Articles = () => {
                   desc="A Beginner's Guide to Deploying an API"
               />
           </Link> 
+      </section>
+      <section>
+        <Blog />
       </section>
     </section>
   );
