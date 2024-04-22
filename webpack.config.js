@@ -141,6 +141,9 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.md'], 
+  },
   module: {
     rules: [
       {
@@ -169,10 +172,10 @@ module.exports = {
         test: /\.md$/,
         use: [
           {
-            loader: 'html-loader', // Process HTML tags in Markdown files
+            loader: 'html-loader', 
           },
           {
-            loader: 'markdown-loader', // Convert Markdown to HTML
+            loader: 'markdown-loader', 
           },
         ],
       },
@@ -184,3 +187,5 @@ module.exports = {
     historyApiFallback: true,
   },
 };
+
+
