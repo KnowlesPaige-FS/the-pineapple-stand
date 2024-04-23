@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-pineapple-stand/static/css/main.7753d3a7.css",
-    "main.js": "/the-pineapple-stand/static/js/main.a3459096.js",
+    "main.js": "/the-pineapple-stand/static/js/main.f96981cd.js",
     "static/js/845.5b205c9b.chunk.js": "/the-pineapple-stand/static/js/845.5b205c9b.chunk.js",
     "static/media/kalei-de-leon-MyzKYhcHkmg-unsplash.jpg": "/the-pineapple-stand/static/media/kalei-de-leon-MyzKYhcHkmg-unsplash.73d914f152fcc4bda900.jpg",
     "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/the-pineapple-stand/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.9ba0183330fc2d77497a.jpg",
@@ -17,11 +17,11 @@
     "static/media/2024-04-14.md": "/the-pineapple-stand/static/media/2024-04-14.e3b95f104ac27e34228d.md",
     "index.html": "/the-pineapple-stand/index.html",
     "main.7753d3a7.css.map": "/the-pineapple-stand/static/css/main.7753d3a7.css.map",
-    "main.a3459096.js.map": "/the-pineapple-stand/static/js/main.a3459096.js.map",
+    "main.f96981cd.js.map": "/the-pineapple-stand/static/js/main.f96981cd.js.map",
     "845.5b205c9b.chunk.js.map": "/the-pineapple-stand/static/js/845.5b205c9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7753d3a7.css",
-    "static/js/main.a3459096.js"
+    "static/js/main.f96981cd.js"
   ]
 }
