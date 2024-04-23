@@ -72,7 +72,7 @@ const PostOne = () => {
                   desc="Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
               />
           </Link>
-          <Link to='/postfive' style={styles.link}>
+          <Link to='/articles' style={styles.link}>
               <Cards 
                   img={cardFive}
                   desc="A Beginner's Guide to Deploying an API"

@@ -28,7 +28,7 @@ function App() {
             <Route path='/postone' element={<PostOne />} />
             <Route path='/posttwo' element={<PostTwo />} />
             <Route path='/postthree' element={<PostThree />} />
-            <Route path='./postfour' elemet={<PostFour />} />
+            <Route path='/postfour' elemet={<PostFour />} />
           </Routes>
         </section>
       </main>
