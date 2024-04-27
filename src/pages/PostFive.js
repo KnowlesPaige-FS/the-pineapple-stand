@@ -4,7 +4,7 @@ import axios from 'axios';
 import Header from "../components/Header";
 import Post from "../components/Post";
 import Cards from "../components/Cards";
-import post1 from '../posts/2024-01-14.md';
+import post5 from '../posts/2024-04-20.md';
 import matter from 'gray-matter';
 import cardOne from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
@@ -13,9 +13,9 @@ import cardFour from '../images/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg';
 import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
 import cardSix from '../images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg';
 
-const latestPost = post1; 
+const latestPost = post5; 
 
-const PostOne = () => {
+const PostFive = () => {
   const [latestPostContent, setLatestPostContent] = useState(null);
 
   useEffect(() => {
@@ -43,37 +43,37 @@ const PostOne = () => {
         welcome='The Archives'
         title="Blog"
         desc="Dive into the forefront of innovation, unraveling the mysteries of code, hardware, software, and everything in between. Get ready to embark on an exhilarating adventure where the possibilities are limitless, and the future is just a click away!"
-        img={cardTwo}
+        img={cardFive}
       />
       <section style={styles.posts}>
         {latestPostContent && <Post post={latestPostContent} />}
       </section>
       <section className="d-flex flex-row justify-content-between align-items-center flex-wrap" style={styles.articles}>
         <Link to='/postone' style={styles.link}>
-              <Cards 
-                  img={cardOne} 
-                  desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
-              />
-          </Link>
-          <Link to='/posttwo' style={styles.link}>
-              <Cards 
-                  img={cardThree}
-                  desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
-              />
-          </Link>
-          <Link to='/postthree' style={styles.link}>
-              <Cards 
-                  img={cardTwo}
-                  desc="Navigating the Future: Exploring the World of Web3"
-              />
-          </Link>
-          <Link to='/postfour' style={styles.link}>
-              <Cards 
-                  img={cardFour}
-                  desc="Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
-              />
-          </Link>
-          <Link to='/postfive' style={styles.link}>
+            <Cards 
+                img={cardOne} 
+                desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
+            />
+        </Link>
+        <Link to='/posttwo' style={styles.link}>
+            <Cards 
+                img={cardThree}
+                desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
+            />
+        </Link>
+        <Link to='/postthree' style={styles.link}>
+            <Cards 
+                img={cardTwo}
+                desc="Navigating the Future: Exploring the World of Web3"
+            />
+        </Link>
+        <Link to='/postfour' style={styles.link}>
+            <Cards 
+                img={cardFour}
+                desc=" Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
+            />
+        </Link> 
+        <Link to='/postfive' style={styles.link}>
               <Cards 
                   img={cardFive}
                   desc="A Beginner's Guide to Deploying an API"
@@ -90,7 +90,7 @@ const PostOne = () => {
   );
 }
 
-export default PostOne;
+export default PostFive;
 
 const styles = {
     posts:{

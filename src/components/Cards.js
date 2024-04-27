@@ -13,7 +13,7 @@ const Cards = props => {
                 <div>  
                     <p style={styles.desc}>{props.desc}</p>
                 </div>
-                <Link to="/" style={styles.link}>Read More</Link>
+                <Link to={props.linkTo} style={styles.link}>Read More</Link>
             </section>
         </article>
     );
@@ -48,6 +48,5 @@ const styles = {
         color: '#8B8E51',
         textDecoration: 'none',
         fontVariant: 'small-caps'
-    }
-    
+    }    
 }

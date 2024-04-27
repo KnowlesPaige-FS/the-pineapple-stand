@@ -11,6 +11,7 @@ import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
 import cardThree from '../images/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg';
 import cardFour from '../images/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg';
 import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
+import cardSix from '../images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg';
 
 const latestPost = post3; 
 
@@ -72,10 +73,16 @@ const PostThree = () => {
                   desc=" Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
               />
           </Link> 
-          <Link to='/articles' style={styles.link}>
+          <Link to='/postfive' style={styles.link}>
               <Cards 
                   img={cardFive}
                   desc="A Beginner's Guide to Deploying an API"
+              />
+          </Link> 
+          <Link to='/articles' style={styles.link}>
+              <Cards 
+                  img={cardSix}
+                  desc="Exploring the Power of React Native"
               />
           </Link> 
       </section>

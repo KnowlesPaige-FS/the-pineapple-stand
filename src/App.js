@@ -7,6 +7,7 @@ import PostOne from './pages/PostOne';
 import PostTwo from './pages/PostTwo';
 import PostThree from './pages/PostThree';
 import PostFour from './pages/PostFour';
+import PostFive from './pages/PostFive';
 
 import { Buffer } from 'buffer';
 window.Buffer = Buffer;
@@ -29,6 +30,7 @@ function App() {
             <Route path='/posttwo' element={<PostTwo />} />
             <Route path='/postthree' element={<PostThree />} />
             <Route path='/postfour' element={<PostFour />} />
+            <Route path='/postfive' element={<PostFive />} />
           </Routes>
         </section>
       </main>

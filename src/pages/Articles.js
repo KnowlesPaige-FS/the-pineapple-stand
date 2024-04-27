@@ -4,15 +4,16 @@ import axios from 'axios';
 import Header from "../components/Header";
 import Post from "../components/Post";
 import Cards from "../components/Cards";
-import post5 from '../posts/2024-04-20.md';
+import post6 from '../posts/2024-04-26.md';
 import matter from 'gray-matter';
 import cardOne from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
 import cardThree from '../images/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg';
 import cardFour from '../images/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg';
 import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
+import cardSix from '../images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg';
 
-const latestPost = post5; 
+const latestPost = post6; 
 
 const Articles = () => {
   const [latestPostContent, setLatestPostContent] = useState(null);
@@ -42,7 +43,7 @@ const Articles = () => {
         welcome='The Archives'
         title="Blog"
         desc="Dive into the forefront of innovation, unraveling the mysteries of code, hardware, software, and everything in between. Get ready to embark on an exhilarating adventure where the possibilities are limitless, and the future is just a click away!"
-        img={cardFive}
+        img={cardSix}
       />
       <section style={styles.posts}>
         {latestPostContent && <Post post={latestPostContent} />}
@@ -72,10 +73,16 @@ const Articles = () => {
                 desc=" Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
             />
         </Link> 
-        <Link to='/articles' style={styles.link}>
+        <Link to='/postfive' style={styles.link}>
               <Cards 
                   img={cardFive}
                   desc="A Beginner's Guide to Deploying an API"
+              />
+          </Link> 
+          <Link to='/articles' style={styles.link}>
+              <Cards 
+                  img={cardSix}
+                  desc="Exploring the Power of React Native"
               />
           </Link> 
       </section>
