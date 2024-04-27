@@ -25,18 +25,21 @@ function Home() {
                         <Cards 
                             img={cardSix}
                             desc="Exploring the Power of React Native"
+                            linkTo='/articles'
                         />
                     </Link>
                     <Link to='/postfive' style={styles.link}>
                         <Cards 
                             img={cardFive}
                             desc="A Beginner's Guide to Deploying an API"
+                            linkTo='/postfive'
                         />
                     </Link>
                     <Link to='/postfour' style={styles.link}>
                         <Cards 
                             img={cardFour} 
                             desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
+                            linkTo='/postfour'
                         />
                     </Link>
                 </section>

@@ -53,36 +53,42 @@ const Articles = () => {
             <Cards 
                 img={cardOne} 
                 desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
+                linkTo='/postone'
             />
         </Link>
         <Link to='/posttwo' style={styles.link}>
             <Cards 
                 img={cardThree}
                 desc="Demystifying Docker: A Comprehensive Guide to Understand Containerization"
+                linkTo='/posttwo'
             />
         </Link>
         <Link to='/postthree' style={styles.link}>
             <Cards 
                 img={cardTwo}
                 desc="Navigating the Future: Exploring the World of Web3"
+                linkTo='/postthree'
             />
         </Link>
         <Link to='/postfour' style={styles.link}>
             <Cards 
                 img={cardFour}
                 desc=" Unveiling the Advantages of React: Why It's a Game-Changer in Web Development"
+                linkTo='/postfour'
             />
         </Link> 
         <Link to='/postfive' style={styles.link}>
               <Cards 
                   img={cardFive}
                   desc="A Beginner's Guide to Deploying an API"
+                  linkTo='/postfive'
               />
           </Link> 
           <Link to='/articles' style={styles.link}>
               <Cards 
                   img={cardSix}
                   desc="Exploring the Power of React Native"
+                  linkTo='/articles'
               />
           </Link> 
       </section>
