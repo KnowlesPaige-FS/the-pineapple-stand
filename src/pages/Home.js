@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Cards from '../components/Cards';
+import cardSeven from '../images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg';
 import cardSix from '../images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg'
-import cardFour from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
 import about from '../images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg';
 import header from '../images/kalei-de-leon-MyzKYhcHkmg-unsplash.jpg';
@@ -23,9 +23,16 @@ function Home() {
                 <section class="d-flex flex-row justify-content-between">
                     <Link to='/articles' style={styles.link}>
                         <Cards 
+                            img={cardSeven}
+                            desc="Safeguarding User Security: The Importance of Password Hashing"
+                            linkTo='/articles'
+                        />
+                    </Link>
+                    <Link to='/postsix' style={styles.link}>
+                        <Cards 
                             img={cardSix}
                             desc="Exploring the Power of React Native"
-                            linkTo='/articles'
+                            linkTo='/postsix'
                         />
                     </Link>
                     <Link to='/postfive' style={styles.link}>
@@ -33,13 +40,6 @@ function Home() {
                             img={cardFive}
                             desc="A Beginner's Guide to Deploying an API"
                             linkTo='/postfive'
-                        />
-                    </Link>
-                    <Link to='/postfour' style={styles.link}>
-                        <Cards 
-                            img={cardFour} 
-                            desc="Unveiling the Advantages of Client-Side Rendering: Elevating the User Experience"
-                            linkTo='/postfour'
                         />
                     </Link>
                 </section>

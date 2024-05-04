@@ -4,7 +4,7 @@ import axios from 'axios';
 import Header from "../components/Header";
 import Post from "../components/Post";
 import Cards from "../components/Cards";
-import post7 from '../posts/2024-05-04.md';
+import post6 from '../posts/2024-04-26.md';
 import matter from 'gray-matter';
 import cardOne from '../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import cardTwo from '../images/shubham-dhage-jwu8TzngxqY-unsplash.jpg';
@@ -14,9 +14,9 @@ import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
 import cardSix from '../images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg';
 import cardSeven from '../images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg';
 
-const latestPost = post7; 
+const latestPost = post6; 
 
-const Articles = () => {
+const PostSix = () => {
   const [latestPostContent, setLatestPostContent] = useState(null);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const Articles = () => {
         welcome='The Archives'
         title="Blog"
         desc="Dive into the forefront of innovation, unraveling the mysteries of code, hardware, software, and everything in between. Get ready to embark on an exhilarating adventure where the possibilities are limitless, and the future is just a click away!"
-        img={cardSeven}
+        img={cardSix}
       />
       <section style={styles.posts}>
         {latestPostContent && <Post post={latestPostContent} />}
@@ -84,14 +84,14 @@ const Articles = () => {
                   desc="A Beginner's Guide to Deploying an API"
                   linkTo='/postfive'
               />
-          </Link>
+          </Link> 
           <Link to='/postsix' style={styles.link}>
               <Cards 
                   img={cardSix}
                   desc="Exploring the Power of React Native"
                   linkTo='/postsix'
               />
-          </Link>  
+          </Link> 
           <Link to='/articles' style={styles.link}>
               <Cards 
                   img={cardSeven}
@@ -104,7 +104,7 @@ const Articles = () => {
   );
 }
 
-export default Articles;
+export default PostSix;
 
 const styles = {
     posts:{

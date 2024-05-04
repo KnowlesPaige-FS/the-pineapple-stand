@@ -12,6 +12,7 @@ import cardThree from '../images/rubaitul-azad-HSACbYjZsqQ-unsplash.jpg';
 import cardFour from '../images/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg';
 import cardFive from '../images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg';
 import cardSix from '../images/ferenc-almasi-L8KQIPCODV8-unsplash.jpg';
+import cardSeven from '../images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg';
 
 const latestPost = post2; 
 
@@ -84,10 +85,17 @@ const PostTwo = () => {
                   linkTo='/postfive'
               />
           </Link> 
-          <Link to='/articles' style={styles.link}>
+          <Link to='/postsix' style={styles.link}>
               <Cards 
                   img={cardSix}
                   desc="Exploring the Power of React Native"
+                  linkTo='/postsix'
+              />
+          </Link>  
+          <Link to='/articles' style={styles.link}>
+              <Cards 
+                  img={cardSeven}
+                  desc="Safeguarding User Security: The Importance of Password Hashing"
                   linkTo='/articles'
               />
           </Link> 
